@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Work</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+    <h3>Search:</h3>
+
+    <form action="#" class="formBox" id="form">
+        <div class="titleBox">
+            <label for="title">Title:</label>
+            <input placeholder="Название" type="text" name="title" id="titleMove">
+        </div>
+        <div class="typeBox">
+            <label for="type">Type:</label>
+            <select name="type" id="typeMove">
+                <option value="move">Фильм</option>
+                <option value="serials">Сериал</option>
+                <option value="episode">Эпизод</option>
+            </select>
+        </div>
+        <button type="submit" id="btnSearch">Поиск</button>
+    </form>
+    <h3>Films:</h3>
+    <div class="FilmAllbox" id="results"></div>
+
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>

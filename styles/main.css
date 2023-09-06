@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+body {
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+h3 {
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.formBox {
+    border: 3px solid black;
+    width: 350px;
+    height: 170px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.titleBox {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 20px;
+    font-weight: bold;
+}
+
+.typeBox {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    font-weight: bold;
+}
+
+#typeMove {
+    width: 200px;
+}
+
+#btnSearch {
+    width: 310px;
+    height: 30px;
+    margin-top: 15px;
+}
+
+.FilmAllbox {
+    display: flex;   
+    margin-right: 20px;
+    width: 100vw;
+    height: 300px;
+    padding: 0 20px;
+    flex-wrap: wrap;
+
+
+}
+.FilmAllbox img{height: 280px;}
+.film-box {
+    display: flex;   
+    border-radius: 10px;
+    width: 500px;
+    height: 200px;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.picture {  
+    display: flex;
+    width: 150px;
+    height: 170px;
+    margin-top: 20px 10px;
+    align-items: center;
+}
+
+.info {   
+    width: 220px;
+    height: 170px;
+    margin-top: 20px 10px;
+}
+
+.info-anons {
+    margin: 10px;   
+    width: 200px;
+    height: 120px;
+    text-align: left;
+}
+
+.info-anons-Fulltitle {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    word-break: break-all;
+}
+
+.info-anons-yearRelise {
+    margin-top: 10px;
+}
+
+#btn-detalis {
+    width: 200px;
+}
+.filmEl{
+    width: 400px;  
+    margin: 10px;
+    display: flex;
+    word-wrap: break-all;
+}
+
+.right
+{
+    display: flex;
+    flex-direction: column;
+    
+  
+}
+.title,.year{  width: 200px; text-align: left;padding-left: 10px;}
